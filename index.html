@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" >
+    <link href="css/responsive.css" rel="stylesheet" >
+    <title>Atita.uz</title>
+  </head>
+  <body>
+  <header class="my_header">    
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <a class="logo" href="#"><img src="images/logo.png"></a>
+        </div>
+        <div class="col-md-6">
+         <form class="form-group search_form">
+           <input class="form-control" type="text" name="search" placeholder="Я ищу..." autocomplete="none">
+           <button type="submit" class="btn"><img src="images/search.png"> Найти</button>
+         </form>
+        </div>
+        <div class="col-md-4">
+         <ul class="login_cart">
+            <li href="#" class="cart">
+              <h3>
+                <a href="#">
+                  <img src="images/cart.png"> 
+                  <span>
+                    Моя корзина<br>
+                    <p>0 сум</p>
+                  </span>
+                </a>
+              </h3>
+              <ul class="cart_ajax">
+                 <img src="images/arrow-up.png"> 
+                <li><p>У вас нет товаров в корзине покупок</p></li>
+                <li><p>Итого 0 сум</p></li>
+              </ul>
+            </li>
+            <li><a href="./login.html" class="login"><img src="images/login.png"> Вход</a></li>
+         </ul>
+        </div>
+      </div>
+
+
+    </div> 
+    <div class="nav">
+       <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <ul class="main_menu">
+                <li><a href="./index.html">Главная</a></li>
+                <li><a href="./unas.html">О нас</a></li>
+                <li><a href="./shop.html">Магазин</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="./contact.html">Контакты</a></li>
+                <li><a href="#"><img src="images/ru.png"> Ru</a>
+                  <ul>
+                    <li><a href="#"><img src="images/uz.png"> Uz</a></li>
+                  </ul>
+                </li>
+                <li class="telefon"><a href="#">+998 90 029 28 88</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4"></div>
+          </div>
+        </div>
+    </div>
+  </header>
+  <section class="main_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+           <ul class="category_nav">
+              <h3><img src="images/nav.png" alt="">Категории</h3>
+             <li><a href="#">Сухая смесь для мороженого</a></li>
+             <li><a href="#">Жидкая смесь для мороженого</a></li>
+             <li><a href="#">Коктейли</a></li>
+           </ul>
+           <div class="person">
+             <img src="images/person.png" alt="">
+           </div>
+        </div>
+        <div class="col-md-8">
+          <div class="main_content">
+            <div class="row">
+              <div class="col-md-5">
+                <a href="#" class="btn_comment">Закажите пробник с бесплатной доставкой</a> 
+              </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </section>
+  <footer>
+    <div class="container">
+      <div class="row">
+          <div class="col-md-2">
+            <a href="#" class="footer_logo"><img src="images/logo.png" alt=""></a>
+          </div>
+          <div class="col-md-3">
+              <ul>
+                <h3>О КОМПАНИИ</h3>
+                <li><a href="./unas.html">О нас</a></li>
+                <li><a href="./shop.html">Магазин</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Акции</a></li>
+                <li><a href="./contact.html">Контакты</a></li>
+              </ul>
+          </div>
+          <div class="col-md-3">
+              <ul>
+                <h3>ИНФОРМАЦИЯ</h3>
+                <li><a href="./purchase.html">Как купить?</a></li>
+                <li><a href="./supply.html">Доставка и способ оплаты</a></li>
+                <li><a href="./complaints.html">Жалобы и предложения</a></li>
+                <li><a href="./shopProduct.html">Mагазин товары</a></li>
+              </ul>
+          </div>
+          <div class="col-md-4">
+              <ul>
+                <h3>КОНТАКТНАЯ ИНФОРМАЦИЯ</h3>
+                <li><a href="#"><img src="images/phone.png" alt=""> +998 90 029 28 88</a></li>
+                <li><a href="#"><img src="images/email.png" alt=""> sales@atita.uz</a></li>
+              </ul>
+              <ul class="sot_set">
+                <li><a href="#"><img src="images/facebook.png" alt=""></a></li>
+                <li><a href="#"><img src="images/insagramm.png" alt=""></a></li>
+                <li><a href="#"><img src="images/telegram.png" alt=""></a></li>
+              </ul>
+          </div>
+      </div>
+    </div>
+  </footer>
+    <script src="js/jquery-3.6.0.min.js"></script> 
+    <script type="text/javascript">
+      jQuery("document").ready(function($){
+ 
+        var my_header = $('.my_header');
+       
+        $(window).scroll(function () {
+          if ($(this).scrollTop() > 136) {
+            my_header.addClass("f-nav");
+          } else {
+            my_header.removeClass("f-nav");
+          }
+        });
+       
+      });
+    </script>
+  </body>
+</html>

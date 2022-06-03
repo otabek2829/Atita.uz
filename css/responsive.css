@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@media screen and (min-width: 1366px) {
+	.container {
+		width: 1200px;
+	}
+}
+
+@media screen and (max-width: 1366px) {
+	.main_section {
+		background-image: url(../images/icecream.png) no-repeat;
+		background-position: 1003px 10px;
+		background-repeat: no-repeat;
+		background-size: 700px;
+	}
+	section .shop .cardBody .parent {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		grid-column-gap: 50px;
+		grid-row-gap: 40px;
+	}
+
+	section .shop .cardBody .box1 {
+		grid-area: 1 / 1 / 2 / 2;
+	}
+
+	section .shop .cardBody .box2 {
+		grid-area: 1 / 2 / 2 / 3;
+	}
+
+	section .shop .cardBody .box3 {
+		grid-area: 2 / 1 / 3 / 2;
+	}
+}
+
+
+
+@media screen and (max-width: 1200px) {
+
+	
+
+
+
+
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 992px) {}
+
+
+
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 576px) {}

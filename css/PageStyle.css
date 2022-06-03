@@ -1,0 +1,543 @@
+#font-face {
+    font-family: 'calibri';
+    src: url('../libs/fonts/calibri_bold.ttf');
+}
+
+.loginPage {
+    font-family: calibri !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loginPage img {
+    margin-bottom: 30px;
+    transform: scale(1.3);
+}
+
+.loginPage form {
+    width: 95%;
+    background-color: #4872a7;
+    height: 358px;
+    padding: 45px 32px 58px 35px !important;
+    border-radius: 8px;
+}
+
+
+.loginPage form .form-control {
+    border-radius: 0px;
+    border: none;
+    outline: none;
+    margin: 0;
+    background-color: #fff;
+    border-radius: none;
+
+}
+
+.loginPage .numsCode {
+    font-size: 22px;
+    padding: 8px 10px !important;
+    font-weight: 700;
+    width: 85px !important;
+    border-right: 1px solid #454693 !important;
+}
+
+.loginPage .number {
+    padding: 7px 0 7px 12px;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.loginPage .form-control::placeholder {
+    color: #000;
+}
+
+.loginPage form .smsCode,
+.loginPage form .registr {
+    margin-top: 18px;
+    background-color: #dc853d;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 0;
+    padding: 9px 0px;
+    font-size: 22px;
+}
+
+.loginPage form .bodyTitle {
+    margin-top: 44px;
+    text-align: left;
+}
+.loginPage form .bodyTitle a{
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.loginPage form .registr {
+    background-color: #fff;
+    width: 100%;
+    color: #dc853d;
+    font-size: 22px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.loginPage .exit {
+    text-align: center;
+    font-size: 22px;
+    color: #4872a7;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+
+
+/* ========================== Unas style starting ========================== */
+section .bodyText {
+    text-align: center;
+    margin: 40px 0 60px 0 !important;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: calibri;
+
+}
+
+section .bodyText p {
+    line-height: 30px;
+}
+
+/* ========================== Supply // Yetkazib berish / /  style starting ========================== */
+
+section .Supply {
+    font-weight: 700 !important;
+    color: #000;
+    font-family: calibri !important;
+}
+
+section .Supply h1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+section .Supply .headerText {
+    margin: 0;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 21px;
+    letter-spacing: -1px;
+}
+
+section .Supply .box-1,
+section .Supply .box-2,
+section .purchase .box-2 {
+    background-color: #4770a6;
+    color: #fff;
+    padding: 23px 0 30px 50px;
+    border-radius: 8px;
+    text-align: left;
+    margin: 60px 0 90px 0;
+}
+
+section .Supply .box-2 {
+    padding-right: 100px;
+    margin-bottom: 150px;
+}
+
+
+section .Supply .box-1 h3,
+section .Supply .box-2 h3,
+section .purchase .box-2 h3 {
+    letter-spacing: -1px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #fff;
+    color: #000;
+    text-transform: uppercase;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 0;
+    padding: 2px 5px;
+    margin-bottom: 20px;
+}
+
+section .Supply .box-1 p,
+section .Supply .box-2 p {
+    font-family: arial;
+}
+
+section .Supply .box-2 p {
+    line-height: 32px;
+    letter-spacing: -1px;
+}
+
+
+/* ========================== Complaints Page // Ariza berish / /  style starting ========================== */
+
+section .complaints {
+    font-weight: 700 !important;
+    font-family: calibri !important;
+    margin-bottom: 15px;
+}
+
+section .complaints h1,
+section .purchase h1,
+section .contact h1 {
+    font-weight: 900;
+    text-align: center;
+    margin: 30px 0 10px 0;
+    font-size: 42px;
+    color: #000;
+}
+
+section .complaints .headText {
+    background-color: #4770a6;
+    border-radius: 8px;
+    padding: 20px 100px 30px 93px;
+}
+
+section .complaints .headText h3 {
+    background-color: #fff;
+    font-weight: 700;
+    font-size: 28px;
+    font-family: calibri;
+    border-radius: 8px;
+    padding: 12px 70px;
+    text-align: center;
+}
+
+section .complaints .headText ul {
+    padding: 0;
+    margin: 30px 0px 0px 0px;
+}
+
+section .complaints .headText ul li {
+    color: #fff;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+section .complaints .formPage,
+section .contact .formPage {
+    background-color: #4770a6;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 18px 32px 20px 28px;
+}
+
+section .complaints .formPage form .form-label,
+section .contact .formPage form .form-label {
+    font-family: arial;
+    font-weight: 700;
+    font-size: 21px;
+    margin-bottom: 18px;
+    color: #fff;
+}
+
+section .complaints .formPage form .form-control,
+section .complaints .formPage form .cv input,
+section .complaints .formPage form .cv select,
+section .contact .formPage form .form-control {
+    border-radius: 8px;
+    border: none !important;
+    outline: none !important;
+    padding: 12px 0px 12px 25px;
+}
+
+section .complaints .formPage form .cv {
+    margin-top: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .complaints .formPage form .cv select {
+    font-weight: 700;
+    font-family: arial;
+    font-size: 19px;
+    padding: 12px inherit;
+}
+
+section .complaints .formPage form .body-text,
+section .contact .formPage form .body-text {
+    text-align: left;
+    margin: 15px 0 18px 0;
+}
+
+section .complaints .formPage form .body-text textarea,
+section .contact .formPage form textarea {
+    resize: none;
+}
+
+section .complaints .formPage form button,
+section .contact button {
+    border: none;
+    background-color: #f4a00d !important;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: arial;
+    border-radius: 8px;
+    margin-top: 18px;
+    text-align: center;
+    padding: 7px;
+}
+
+/* ========================== Purchase Page // Qanday qilib sotib olish / /  style starting ========================== */
+
+section .purchase {
+    margin-bottom: 335px;
+}
+
+section .purchase h1 {
+    margin-bottom: 36px;
+}
+
+section .purchase .box-1 {
+    background-color: #4770a6;
+    border-radius: 8px;
+    color: #fff;
+
+    padding: 32px 32px 27px 24px;
+}
+
+section .purchase .box-1 p {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 700;
+    font-family: arial;
+    text-align: center;
+}
+
+section .purchase .box-2 {
+    font-weight: 700;
+    font-family: arial;
+    padding: 35px 0px 20px 47px;
+}
+
+section .purchase .box-2 ul li {
+    margin-bottom: 10px;
+}
+
+/* ========================== Contact Page //Kontakt Yuborish / /  style starting ========================== */
+section .contact {
+    margin-bottom: 75px;
+}
+
+section .contact h1 {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+section .contact .contactText {
+    background-color: #fff;
+    padding: 33px 42px 30px 24px;
+    border: 3px solid #4770a6;
+    border-radius: 10px;
+    margin-bottom: 38px;
+    text-align: center;
+}
+
+section .contact .contactText p {
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: arial;
+}
+
+section .contact button {
+    padding: 8px 16px !important;
+    box-shadow: inset 0px 3px 10px 0px #fff;
+}
+
+/* ========================== Shop Page // ShopYuborish / /  style starting ========================== */
+
+
+section .shop .cardBody .parent {
+    display: grid;
+    flex-wrap: wrap !important;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 70px;
+    margin-top: 100px;
+}
+
+section .shop .cardBody .box1,
+section .shop .cardBody .box2,
+section .shop .cardBody .box3 {
+    border-radius: 8px;
+    background-color: #4770a6;
+    padding: 60px 38px 12px 55px;
+}
+
+section .shop .cardBody .box1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+section .shop .cardBody .box2 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+section .shop .cardBody .box3 {
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+section .shop .cardBody .parent h5 {
+    margin-top: 34px;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: calibri;
+}
+
+/* ========================== Shop Product Page //     <script src="./index.js"></script>
+ / /  style starting ========================== */
+
+section .shopProduct .cardBody {
+    width: 100%;
+}
+
+section .shopProduct .cardBody .headerPage {
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: arial;
+    margin-top: 30px;
+}
+
+section .shopProduct .cardBody .headerPage .filterPage .form-select {
+    background-color: transparent;
+    padding: 12px 20px 5px 15px;
+    font-weight: bold;
+    border: 1px solid #4770a6;
+    outline: none;
+    -webkit-appearance: none;
+    background: transparent url('../images/arrow.png') no-repeat 96% center;
+
+}
+
+section .shopProduct .cardBody .bodyPage {
+    margin-top: 15px;
+}
+
+section .shopProduct .cardBody .bodyPage .splide__slide {
+    background-color: #4872a7;
+    border-radius: 8px;
+    margin-right: 45px;
+    text-align: center;
+    padding: 295px 75px 40px 45px;
+    height: 525px !important;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    font-family: calibri;
+    font-weight: bold !important;
+}
+
+section .shopProduct .cardBody .bodyPage .splide__slide .headPage h3 {
+    font-weight: bold !important;
+    font-size: 33px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    margin: 0;
+    padding: 0;
+}
+
+section .shopProduct .cardBody .bodyPage .splide__slide .headPage .sort,
+section .shopProduct .cardBody .bodyPage .splide__slide .headPage .weight {
+    text-transform: lowercase;
+    font-size: 31px;
+    margin-top: -20px;
+}
+
+section .shopProduct .cardBody .bodyPage.splide__slide.weight {
+    margin-top: -21px;
+}
+section .shopProduct .cardBody .bodyPage.splide__slide .downPage .productPrice{
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-family: arial;
+}
+
+section .shopProduct .cardBody .bodyPage .splide__slide .downPage button{
+    background-color: #fff;
+    color: #000;
+    text-transform: uppercase;
+    border-radius: 8px;
+    padding: 8px 40px ;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+section .shopProduct .cardBody .bodyPage .allProductBtn button{
+    margin-top: 50px;
+    background-color: #e0923c;
+    color: #fff;
+    font-weight: bold;
+    font-family: arial;
+    border-radius: 9px;
+    padding: 12px  30px;
+    border: none;
+    text-align: center;
+    display: none;
+}
+.splide__pagination {
+    bottom: -8%;
+}
+
+.splide__pagination li {
+    margin-right: 10px;
+    background-color: #fff ;
+    border-radius: 8px;
+    border: 1px solid #4770a6;
+    width: 40px;
+    height: 36px;
+    font-size: 21px;
+    font-weight: 700;
+    transform: translateY(1px);
+} 
+.splide__pagination__page{
+    background-color: #fff;
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100%;
+    width: 100%;
+}
+
+.splide__pagination__page.is-active{
+    outline: none !important;
+    color: #fff;
+    border: none !important;
+    border-radius: 0 !important;
+    background-color: #e0923c !important;
+    transform: scale(1);
+}
+.splide__pagination li button:focus-visible{
+    border: none !important;
+}
+.splide__pagination li:focus-visible {
+    display: none !important;
+  }
+.active span{
+    outline: none !important;
+    color: #fff;
+    border: none !important;
+    background-color: #eec53a !important;
+}
+
+
+.splide__pagination {
+    counter-reset: pagination-num;
+  }
+  
+  .splide__pagination__page:before {
+    counter-increment: pagination-num;
+    content: counter( pagination-num );
+  }
+
+ 
